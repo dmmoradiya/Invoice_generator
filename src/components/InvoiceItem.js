@@ -1,5 +1,5 @@
-import React from 'react';
-import InvoiceField from './InvoiceField';
+import React from "react";
+import InvoiceField from "./InvoiceField";
 
 const InvoiceItem = ({ id, name, qty, price, onDeleteItem, onEdtiItem }) => {
   const deleteItemHandler = () => {
@@ -12,9 +12,9 @@ const InvoiceItem = ({ id, name, qty, price, onDeleteItem, onEdtiItem }) => {
         <InvoiceField
           onEditItem={(event) => onEdtiItem(event)}
           cellData={{
-            placeholder: 'Item name',
-            type: 'text',
-            name: 'name',
+            placeholder: "Item name",
+            type: "text",
+            name: "name",
             id: id,
             value: name,
           }}
@@ -24,9 +24,9 @@ const InvoiceItem = ({ id, name, qty, price, onDeleteItem, onEdtiItem }) => {
         <InvoiceField
           onEditItem={(event) => onEdtiItem(event)}
           cellData={{
-            type: 'number',
-            min: '1',
-            name: 'qty',
+            type: "number",
+            min: "1",
+            name: "qty",
             id: id,
             value: qty,
           }}
@@ -36,25 +36,20 @@ const InvoiceItem = ({ id, name, qty, price, onDeleteItem, onEdtiItem }) => {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="absolute left-2 top-1/2 h-6 w-6 -translate-y-1/2 text-gray-400 sm:left-4"
-          fill="none"
-          viewBox="0 0 24 24"
+          viewBox="0 0 320 512"
           stroke="currentColor"
         >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
+        <path d="M0 64C0 46.3 14.3 32 32 32H96h16H288c17.7 0 32 14.3 32 32s-14.3 32-32 32H231.8c9.6 14.4 16.7 30.6 20.7 48H288c17.7 0 32 14.3 32 32s-14.3 32-32 32H252.4c-13.2 58.3-61.9 103.2-122.2 110.9L274.6 422c14.4 10.3 17.7 30.3 7.4 44.6s-30.3 17.7-44.6 7.4L13.4 314C2.1 306-2.7 291.5 1.5 278.2S18.1 256 32 256h80c32.8 0 61-19.7 73.3-48H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H185.3C173 115.7 144.8 96 112 96H96 32C14.3 96 0 81.7 0 64z" />
         </svg>
+
         <InvoiceField
           onEditItem={(event) => onEdtiItem(event)}
           cellData={{
-            className: 'text-right',
-            type: 'number',
-            min: '0.01',
-            step: '0.01',
-            name: 'price',
+            className: "text-right",
+            type: "number",
+            min: "1",
+            step: "1",
+            name: "price",
             id: id,
             value: price,
           }}

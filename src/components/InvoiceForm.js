@@ -184,24 +184,24 @@ const InvoiceForm = () => {
         <div className="flex flex-col items-end space-y-2 pt-6">
           <div className="flex w-full justify-between md:w-1/2">
             <span className="font-bold">Subtotal:</span>
-            <span>${subtotal.toFixed(2)}</span>
+            <span>₹{subtotal.toFixed(2)}</span>
           </div>
           <div className="flex w-full justify-between md:w-1/2">
             <span className="font-bold">Discount:</span>
             <span>
-              ({discount || '0'}%)${discountRate.toFixed(2)}
+              ({discount || '0'}%)₹{discountRate.toFixed(2)}
             </span>
           </div>
           <div className="flex w-full justify-between md:w-1/2">
             <span className="font-bold">Tax:</span>
             <span>
-              ({tax || '0'}%)${taxRate.toFixed(2)}
+              ({tax || '0'}%)₹{taxRate.toFixed(2)}
             </span>
           </div>
           <div className="flex w-full justify-between border-t border-gray-900/10 pt-2 md:w-1/2">
             <span className="font-bold">Total:</span>
             <span className="font-bold">
-              ${total % 1 === 0 ? total : total.toFixed(2)}
+            ₹{total % 1 === 0 ? total : total.toFixed(2)}
             </span>
           </div>
         </div>
