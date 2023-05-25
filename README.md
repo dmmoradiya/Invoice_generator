@@ -49,9 +49,6 @@ Congratulations 🎉. Sit back and wait for the response.
 
 ## Support 🧡
     Give a 🌟  if this project helped you!
-    
-## License 📑
-    ```This project is [MIT](LICENSE) licensed.```
 
 
 
