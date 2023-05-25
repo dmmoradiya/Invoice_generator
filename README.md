@@ -20,7 +20,7 @@ An Invoice Generator project built with React and TailwindCSS. Add items, quanti
 - Html-to-image
 - jsPDF
 
-### Instalation
+### Installation
 
 ```
 git clone https://github.com/hourmeng12/invoice-generator
@@ -30,7 +30,7 @@ npm install
 npm start / npm run build
 ```
 ##  Contribution 🤝
-PRs are always welcome
+![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 
 ##### Want to Contribute 🚧 ?
 > Clone the repository. 
@@ -43,9 +43,6 @@ PRs are always welcome
 
 Congratulations 🎉. Sit back and wait for the response.
 
-![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
-![Total Forks](https://img.shields.io/github/forks/abhigoyani/expanse_manager_UI?style=flat-square)
-![License](https://img.shields.io/github/license/harikanani/harikanani.github.io?style=flat-square)
 
 ## Support 🧡
     Give a 🌟  if this project helped you!
