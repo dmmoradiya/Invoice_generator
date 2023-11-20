@@ -1,6 +1,5 @@
 {
   "name": "invoice-generator",
-  "homepage": "https://dmmoradiya.github.io/Invoice_generator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
